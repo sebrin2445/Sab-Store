@@ -1,0 +1,103 @@
+/* src/components/HomePage.css */
+body{
+    background-color: #0E151E;
+}
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #101923;;
+    color: white;
+  }
+  .header sub{
+    color: #7aa8da;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .user-actions .sell-button {
+    padding: 10px 20px;
+    background-color: #ff6f00;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    background-color: #435D78;;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero-text h1 {
+    font-size: 32px;
+  }
+  
+  .hero-text span {
+
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .ad-section {
+    display: flex;
+    flex-wrap: wrap;
+gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .ad-banner, .sell-banner {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    min-width: 45%;
+  }
+  
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .category {
+    
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+  
