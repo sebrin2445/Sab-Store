@@ -1,4 +1,26 @@
 /* src/App.css */
-.App {
-  font-family: Arial, sans-serif;
+nav {
+  background-color: #1a1a2e;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #3a3a5e;
 }
